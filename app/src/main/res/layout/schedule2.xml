@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/characterid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/scheduleswap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="일 간"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ListView
+               android:id="@+id/schedulelist2"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+                >
+
+
+           </ListView>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <CheckBox
+                   android:id="@+id/daycheckbox1"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   />
+               <CheckBox
+                   android:id="@+id/daycheckbox2"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   />
+               <CheckBox
+                   android:id="@+id/daycheckbox3"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   />
+
+           </LinearLayout>
+           <ListView
+               android:id="@+id/schedulelist3"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:visibility="gone"/>
+               />
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <CheckBox
+                   android:id="@+id/weekcheckbox1"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox2"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox3"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox4"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox5"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox6"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox7"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox8"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox9"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+               <CheckBox
+                   android:id="@+id/weekcheckbox10"
+                   android:layout_weight="1.4"
+                   android:layout_width="match_parent"
+                   android:layout_height="49dp"
+                   android:visibility="gone"/>
+
+
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+
+</LinearLayout>
